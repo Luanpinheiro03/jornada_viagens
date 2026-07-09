@@ -28,6 +28,10 @@
   font-display: swap;
 }
 
+header{
+  background-color: #000000;
+}
+
 h1 {
   font-family: "Montserrat";
   font-weight: var(--title-weight);
