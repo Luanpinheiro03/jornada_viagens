@@ -45,3 +45,36 @@ nav{
 .list-links li{
     margin: 16px;
 }
+
+@media screen and (min-width: 768px) {
+
+    .navigation-menu{
+        width: 467px;
+    }
+
+    .navigation-menu label{
+        display: none;
+    }
+
+    .navigation-menu nav{
+        display: block;
+      
+    }
+
+    .navigation-menu ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        padding: 0;
+    }
+
+    .navigation-menu li{
+        margin: 0;
+    }
+
+
+
+
+
+
+}
