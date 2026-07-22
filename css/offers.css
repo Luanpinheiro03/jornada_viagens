@@ -1,1 +1,40 @@
- 
+ .card{
+    width: 312px;
+    height: 288px;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    color: var(--text-secondary-color);
+    background-color: black;
+    text-align: center;
+    border-radius: 16px;
+ }
+ .card header{
+    display: block;
+    position: static;
+    padding: 0;
+    background-color: transparent;
+}
+
+ .card header p{
+    font-weight: var(--text-weight);
+    font-size: 20px;
+ }
+
+ .card header h3{
+    font-weight: var(--title-weight);
+    font-size: 40px;
+    margin-top: 8px;
+ }
+
+.card header span{
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 24px;  
+ }
+
+ .card footer a{
+    width: 280px;
+    height: 64px;
+    display: block;
+    margin-top: 24px;
+ }
