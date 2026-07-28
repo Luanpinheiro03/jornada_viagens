@@ -56,7 +56,7 @@ body{
   display: inline-block;
   font-size: 20px;
   font-weight: var(--title-weight);
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .button:hover{
