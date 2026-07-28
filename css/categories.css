@@ -1,3 +1,7 @@
+.categories .section-title{
+    width: 312px;
+    margin: 0 auto;
+}
 .categories-cards{
     background-color: var( --background-secondary-color);
     display: flex;
@@ -28,8 +32,12 @@
 @media screen and (min-width: 768px){
     .categories-cards{
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: wrap;   
     }
+    .categories .section-title{
+    width: 366px;
+    margin: 0 auto;
+}
 }
 
 @media screen and (min-width: 1024px){
