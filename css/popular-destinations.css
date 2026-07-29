@@ -47,3 +47,31 @@
     width: 312px;
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+    .img-item-tokyo{
+        width: 648px;
+        height: 452px;
+        background-image: url(../img/tokyo-tablet-desk.png);
+    }
+    .img-item-osaka{
+        width: 648px;
+        height: 452px;
+        background-image: url(../img/osaka-tablet-desk.png);
+    }
+    
+    .item p{
+        width: 648px;
+    }
+
+    .item footer{
+        align-self: flex-start;
+    }
+    .item{
+        width: 648px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+
+}
