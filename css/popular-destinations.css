@@ -73,5 +73,21 @@
 }
 
 @media screen and (min-width: 1440px){
-
+    .destinations-itens{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .img-item-tokyo{
+        width: 588px;
+    }
+    .img-item-osaka{
+        width: 588px;
+    }
+    .item{
+        width: 588px;
+    }
+    .item p{
+        width: 588px;
+    }
 }
