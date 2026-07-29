@@ -1,12 +1,33 @@
-.card-destination{
-    width: 312px;
-    height: 754px;
+ .destinations-itens header{
+    display: block;
+    position: static;
+    padding: 0;
+    background-color: transparent;
+}
+
+ .popular-destinations{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
 
-.card-destination img{
+.img-item-tokyo{
+    width: 312px;
+    height: 360px;
+    background-size: cover;
+    background-image: url(../img/tokyo-mobile.png);
+}
+
+.img-item-osaka{
+    width: 312px;
+    height: 360px;
+    background-size: cover;
+    background-image: url(../img/osaka-mobile.png);
+}
+
+
+
+/*.card-destination img{
     width: 312px;
     height: 360px;
 }
@@ -31,4 +52,4 @@
 
 .card-destination.tokyo{
     margin-bottom: 40px;
-}
+} */
