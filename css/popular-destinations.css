@@ -1,34 +1,49 @@
-.card-destination{
-    width: 312px;
-    height: 754px;
+ .item{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0 auto;
+    margin-bottom: 40px;
+ }
+ 
+ .destinations-itens header{
+    display: block;
+    position: static;
+    padding: 0;
+    background-color: transparent;
 }
 
-.card-destination img{
-    width: 312px;
-    height: 360px;
-}
-
-.card-destination h3{
+ .destinations-itens header h4{
     font-size: 28px;
     font-weight: var(--title-weight);
-    margin: 24px 0;
-}
-
-.card-destination p{
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: var(--text-weight);
     margin-bottom: 24px;
 }
 
-.card-destination .button{
+ .item p{
     width: 312px;
-    text-align: center;
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px; 
+    margin-bottom: 24px;
 }
 
-.card-destination.tokyo{
-    margin-bottom: 40px;
+.img-item-tokyo{
+    width: 312px;
+    height: 360px;
+    background-size: cover;
+    background-image: url(../img/tokyo-mobile.png);
+    margin-bottom: 24px;
+}
+
+.img-item-osaka{
+    width: 312px;
+    height: 360px;
+    background-size: cover;
+    background-image: url(../img/osaka-mobile.png);
+    margin-bottom: 24px;
+}
+
+.button{
+    width: 312px;
+    text-align: center;
 }
