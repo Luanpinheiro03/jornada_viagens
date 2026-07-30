@@ -32,6 +32,17 @@ body{
   color: var(--text-primary-color);
 }
 
+.title-content{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.text-content{
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px; 
+}
+
 .section-title h2{
   font-size: 28px;
   font-weight: var(--title-weight);
