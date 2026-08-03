@@ -1,10 +1,10 @@
-.content-payments{
+.text-payments{
     margin: 0 auto 24px ;
     justify-content: center;
     width: 312px;
 }
 
-.content-payments h3{
+.text-payments h3{
     margin: 0 auto 24px ;
 }
 
@@ -38,7 +38,7 @@
 }
 
  @media screen and (min-width:768px){
-    .content-payments{
+    .text-payments{
         height: 122px;
         width: 648px;
 }
@@ -62,3 +62,39 @@
     }
 
  }
+
+  @media screen and (min-width:1440px){
+    .content-payments{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .text-payments{
+        width: 385px;
+        margin: 0 23px auto;
+    }
+
+    .grid-images{
+        width: 790px;
+    }
+
+    .image-bags{
+        width: 384px;
+        background-image: url(../img/malas-desk.png);
+}
+
+    .image-passport{
+        width: 384px;
+        background-image: url(../img/passaporte-desk.png);
+}
+
+    .image-people{
+        width: 790px;
+        background-image: url(../img/pessoas-desk.png);
+}
+}
+
+ 
