@@ -1,0 +1,38 @@
+.content-payments{
+    margin: 0 auto 24px ;
+    justify-content: center;
+    width: 312px;
+}
+
+.content-payments h3{
+    margin: 0 auto 24px ;
+}
+
+.grid-images{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2 1fr);
+    gap: 24px;
+}
+
+.image-bags{
+    background-image: url(../img/malas-mobile.png);
+    background-size: cover;
+    width: 144px;
+    height: 254px;
+}
+
+.image-passport{
+    background-image: url(../img/passaporte-mobile.png);
+    background-size: cover;
+    width: 144px;
+    height: 254px;
+}
+
+.image-people{
+    background-image: url(../img/pessoas-mobile.png);
+    background-size: cover;
+    width: 312px;
+    height: 182px;
+    grid-column: span 2;
+}
