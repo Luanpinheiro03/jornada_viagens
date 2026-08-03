@@ -36,3 +36,29 @@
     height: 182px;
     grid-column: span 2;
 }
+
+ @media screen and (min-width:768px){
+    .content-payments{
+        height: 122px;
+        width: 648px;
+}
+
+    .image-bags{
+        width: 312px;
+        height: 254px;
+        background-image: url(../img/malas-tablet.png);
+}
+
+    .image-passport{
+        width: 312px;
+        height: 254px;
+        background-image: url(../img/passaporte-tablet.png);
+}
+
+    .image-people{
+        width: 648px;
+        height: 182px;
+        background-image: url(../img/pessoas-tablet.png);        
+    }
+
+ }
