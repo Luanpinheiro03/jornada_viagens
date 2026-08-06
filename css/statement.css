@@ -24,8 +24,7 @@
 
 .statement .statement-container footer{
     display: flex;
-    width: 286px;
-    margin-top: 8px;
+    width: 286px; 
     gap: 24px;
 }
 
@@ -49,6 +48,24 @@
     align-items:  center;
 }
 
+@media screen and (min-width:768px) {
+    .statement-container{
+        width: 698px;
+    }   
 
+    .statement .statement-container header p{
+        margin-bottom: 8px;
+    }
+}
 
+@media screen and (min-width:1440px) {
+    .statement-container{
+        display: flex;
+        flex-direction: row;
+}
+    
+    .statement-container{
+        width: 1200px;
+    }  
+}
 
