@@ -1,3 +1,13 @@
+.payments{
+    display: flex;
+    width: 312px;
+    margin: 0 auto;
+}
+
+.content-payments{
+    margin: 0 auto 88px;
+}
+
 .text-payments{
     margin: 0 auto 24px ;
     justify-content: center;
