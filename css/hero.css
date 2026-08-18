@@ -23,6 +23,33 @@
     background-size: cover;
 }
 
+.hero-package{
+    width: 100%;
+    height: 460px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url(../img/hero-package.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position-x: -240px;
+    color: var(--background-primary-color);
+}
+
+.hero-content{
+    padding: 64px 24px;
+}
+
+.hero-package .hero-content h1{
+    font-size: 48px;
+}
+
+.hero-package .hero-content hr{
+    width: 180px;
+    height: 4px;
+    background-color: var(--primary-color);
+    margin: 16px auto 32px;
+    border: none;
+}
+
 @media screen and (min-width: 768px) {
    
    .hero-img{ 
