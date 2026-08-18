@@ -36,6 +36,7 @@
 
 .hero-content{
     padding: 64px 24px;
+    box-sizing: border-box;
 }
 
 .hero-package .hero-content h1{
@@ -67,6 +68,20 @@
     .hero-inf-img{
         background-image: url(../img/hero-rodape-tablet.png);
 }
+
+    .hero-package{
+        height: 620px;
+}
+
+    .hero-content{
+        padding: 150px 69px;
+}
+
+    .hero-package .hero-content p{
+        font-size: 32px;
+        line-height: 150%;
+}
+
 }
 
 @media screen and (min-width: 1024px) {
