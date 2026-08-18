@@ -47,6 +47,49 @@
     grid-column: span 2;
 }
 
+.package-payments-content{
+    width: 312px;
+    margin: 0 auto;
+}
+
+.package-payments .package-payments-content h2{
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.package-payments .package-payments-content h3{
+    margin-bottom: 12px;
+}
+
+.package-payments .package-payments-content p{
+    margin-bottom: 16px;
+}
+
+.package-payments .package-payments-content .button{
+    text-align: center;
+}
+
+.image-japan1{
+    background-image: url(../img/image-japan1.png);
+    width: 144px;
+    height: 254px;
+    background-size: cover;
+}
+
+.image-japan2{
+    background-image: url(../img/image-japan2.png);
+    width: 144px;
+    height: 254px;
+    background-size: cover;
+}
+
+.image-japan-large{
+    background-image: url(../img/image-japan-large.png);
+    width: 312px;
+    height: 182px;
+    background-size: cover;
+}
+
  @media screen and (min-width:768px){
     .text-payments{
         height: 122px;
