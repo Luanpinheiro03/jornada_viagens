@@ -100,12 +100,25 @@
     .hero-inf-img{
         background-image: url(../img/hero-rodape-desk.png);
 }
+
+    .hero-package{
+        background-position: 0;
+}
+
+    .hero-package .hero-content hr{
+        margin: 16px auto 32px 0;
+}
 }
 
 @media screen and (min-width: 1440px){
     .hero-inf-img{
         height: 600px;
     }
+
+    .hero-content{
+        width: 800px;
+        height: 210px;
+}
 }
 
 @media  screen and (min-width: 1920px){
