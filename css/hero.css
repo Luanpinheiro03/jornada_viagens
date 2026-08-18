@@ -32,6 +32,7 @@
     background-size: cover;
     background-position-x: -240px;
     color: var(--background-primary-color);
+    margin-bottom: 88px;
 }
 
 .hero-content{
@@ -71,6 +72,7 @@
 
     .hero-package{
         height: 620px;
+        margin-bottom: 104px;
 }
 
     .hero-content{
