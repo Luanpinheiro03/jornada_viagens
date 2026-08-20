@@ -109,5 +109,19 @@
     .statement-container{
         width: 1200px;
     }  
+
+    .travel-package-statement-container article{
+        width: 384px;
+    }
+
+    .travel-package-statement-container{
+        display: flex;
+        flex-direction: row;
+        padding: 32px 120px;
+    }
+
+    .travel-package-statement-container .span-footer{
+       margin-top: 35px;
+}
 }
 
