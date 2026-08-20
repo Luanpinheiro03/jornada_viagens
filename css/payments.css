@@ -67,27 +67,40 @@
 
 .package-payments .package-payments-content .button{
     text-align: center;
+    width: 312px;
 }
 
 .image-japan1{
     background-image: url(../img/image-japan1.png);
-    width: 144px;
+    width: 100%;
     height: 254px;
     background-size: cover;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .image-japan2{
     background-image: url(../img/image-japan2.png);
-    width: 144px;
+    width: 100%;
     height: 254px;
     background-size: cover;
 }
 
 .image-japan-large{
     background-image: url(../img/image-japan-large.png);
-    width: 312px;
     height: 182px;
     background-size: cover;
+    grid-column: span 2;
+}
+
+.package-payments-grid{
+    width: 290px;
+    height: 460px;
+    justify-content: center;
+    margin: 24px auto 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 22px;
 }
 
  @media screen and (min-width:768px){
