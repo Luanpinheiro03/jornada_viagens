@@ -179,6 +179,23 @@
         width: 790px;
         background-image: url(../img/pessoas-desk.png);
 }
+
+    .package-payments{
+        display: flex;
+        flex-direction: row;
+        gap: 23px;
+        margin: 0 120px;
+    }
+
+    .package-payments-grid{
+        width: 790px;
+        margin: 0 auto;
+    }
+
+    .package-payments-content{
+        align-self: center;
+        width: 384px;
+    }
 }
 
  
