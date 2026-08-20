@@ -42,12 +42,45 @@
     font-weight: var(--title-weight);
 }
 
-.statement .statement-container footer .rating{
+.rating{
     font-size: 42px;
     line-height: 20px;
     color: var(--primary-color);
     align-items:  center;
 }
+
+.travel-package-statement-container article{
+    width: 312px;
+    margin: 0 auto;
+}
+
+.travel-package-statement-container header{
+    padding: 0;
+    background-color: var(--background-primary-color)
+}
+
+.travel-package-statement-container p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.travel-package-statement-container img{
+    width: 86px;
+}
+
+.travel-package-statement-container footer{
+    display: flex;
+    margin: 8px auto 32px;
+    align-items: center;
+    gap: 24px;
+}
+
+.travel-package-statement-container h4{
+    font-size: 20px; 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 
 @media screen and (min-width:768px) {
     .statement-container{
@@ -56,6 +89,14 @@
 
     .statement .statement-container header p{
         margin-bottom: 8px;
+    }
+
+    .travel-package-statement-container article{
+        width: 648px;
+    }
+
+    .travel-package-statement-container h4{ 
+        margin-bottom: 18px;
     }
 }
 
@@ -68,5 +109,19 @@
     .statement-container{
         width: 1200px;
     }  
+
+    .travel-package-statement-container article{
+        width: 384px;
+    }
+
+    .travel-package-statement-container{
+        display: flex;
+        flex-direction: row;
+        padding: 32px 120px;
+    }
+
+    .travel-package-statement-container .span-footer{
+       margin-top: 35px;
+}
 }
 
