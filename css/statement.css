@@ -42,7 +42,7 @@
     font-weight: var(--title-weight);
 }
 
-.statement .statement-container footer .rating{
+.rating{
     font-size: 42px;
     line-height: 20px;
     color: var(--primary-color);
