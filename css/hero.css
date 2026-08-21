@@ -90,6 +90,10 @@
         font-size: 32px;
         line-height: 150%;
 }
+
+    .hero-inf-travel-package{
+        background-image: url(../img/hero-inf-travel-package-tablet.png);
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -116,6 +120,9 @@
     .hero-package .hero-content hr{
         margin: 16px auto 32px 0;
 }
+    .hero-inf-travel-package{
+        background-image: url(../img/hero-inf-travel-package-desk.png);
+}
 }
 
 @media screen and (min-width: 1440px){
@@ -126,6 +133,10 @@
     .hero-content{
         width: 800px;
         height: 210px;
+}
+    .hero-inf-travel-package{
+        height: 600px;
+        background-image: url(../img/hero-inf-travel-package-desk.png);
 }
 }
 
