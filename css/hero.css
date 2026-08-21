@@ -52,6 +52,13 @@
     border: none;
 }
 
+.hero-inf-travel-package{
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/hero-inf-travel-package-mobile.png);
+    background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
    
    .hero-img{ 
@@ -83,7 +90,6 @@
         font-size: 32px;
         line-height: 150%;
 }
-
 }
 
 @media screen and (min-width: 1024px) {
