@@ -49,6 +49,10 @@
     align-items:  center;
 }
 
+.travel-package-statement-container{
+    margin-bottom: 88px;
+}
+
 .travel-package-statement-container article{
     width: 312px;
     margin: 0 auto;
