@@ -157,7 +157,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 0 auto 88px;
+        margin: 0 auto 88px ;
     }
 
     .text-payments{
@@ -187,8 +187,9 @@
     .package-payments{
         display: flex;
         flex-direction: row;
+        justify-content: center;
         gap: 23px;
-        margin: 0 120px;
+        margin: 0 120px 88px;
     }
 
     .package-payments-grid{
