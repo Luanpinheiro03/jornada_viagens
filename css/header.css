@@ -45,9 +45,7 @@ nav{
 }
 
 .list-links li a{
-    text-decoration: none;
     color: var(--text-secondary-color);
-    
 }
 
 .list-links li{
