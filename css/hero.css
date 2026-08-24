@@ -36,7 +36,7 @@
 }
 
 .hero-content{
-    padding: 64px 24px;
+    padding: 64px 52px;
     box-sizing: border-box;
 }
 
@@ -86,6 +86,10 @@
         padding: 150px 69px;
 }
 
+    .hero-package .hero-content hr{
+        margin: 16px 0 32px;
+    }
+
     .hero-package .hero-content p{
         font-size: 32px;
         line-height: 150%;
@@ -131,8 +135,12 @@
     }
 
     .hero-content{
-        width: 800px;
-        height: 210px;
+        padding: 0;
+        width: 580px;
+        margin: auto 120px;
+        padding-top: 150px;
+        
+        
 }
     .hero-inf-travel-package{
         height: 600px;
