@@ -26,21 +26,21 @@
 }
 
 .image-bags{
-    background-image: url(../img/malas-mobile.png);
+    background-image: url(../img/home/malas-mobile.png);
     background-size: cover;
     width: 144px;
     height: 254px;
 }
 
 .image-passport{
-    background-image: url(../img/passaporte-mobile.png);
+    background-image: url(../img/home/passaporte-mobile.png);
     background-size: cover;
     width: 144px;
     height: 254px;
 }
 
 .image-people{
-    background-image: url(../img/pessoas-mobile.png);
+    background-image: url(../img/home/pessoas-mobile.png);
     background-size: cover;
     width: 312px;
     height: 182px;
@@ -70,7 +70,7 @@
     width: 312px;
 }
 
-.image-japan1{
+.package-payments.image-japan1{
     background-image: url(../img/image-japan1-mobile.png);
     width: 100%;
     height: 254px;
@@ -78,14 +78,14 @@
     margin: 0 auto;
 }
 
-.image-japan2{
+.package-payments.image-japan2{
     background-image: url(../img/image-japan2-mobile.png);
     width: 100%;
     height: 254px;
     background-size: cover;
 }
 
-.image-japan-large{
+.package-payments .image-japan-large{
     background-image: url(../img/image-japan-large-mobile.png);
     height: 182px;
     background-size: cover;
@@ -115,19 +115,19 @@
     .image-bags{
         width: 312px;
         height: 254px;
-        background-image: url(../img/malas-tablet.png);
+        background-image: url(../img/home/malas-tablet.png);
 }
 
     .image-passport{
         width: 312px;
         height: 254px;
-        background-image: url(../img/passaporte-tablet.png);
+        background-image: url(../img/home/passaporte-tablet.png);
 }
 
     .image-people{
         width: 648px;
         height: 182px;
-        background-image: url(../img/pessoas-tablet.png);        
+        background-image: url(../img/home/pessoas-tablet.png);        
     }
 
     .package-payments-content{
@@ -171,17 +171,17 @@
 
     .image-bags{
         width: 384px;
-        background-image: url(../img/malas-desk.png);
+        background-image: url(../img/home/malas-desk.png);
 }
 
     .image-passport{
         width: 384px;
-        background-image: url(../img/passaporte-desk.png);
+        background-image: url(../img/home/passaporte-desk.png);
 }
 
     .image-people{
         width: 790px;
-        background-image: url(../img/pessoas-desk.png);
+        background-image: url(../img/home/pessoas-desk.png);
 }
 
     .package-payments{
