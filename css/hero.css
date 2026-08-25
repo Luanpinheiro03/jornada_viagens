@@ -55,8 +55,33 @@
 .hero-inf-travel-package{
     height: 400px;
     width: 100%;
-    background-image: url(../img/travel-package/hero-inf-travel-package-mobile.png);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url(../img/travel-package/hero-inf-travel-package-mobile.png);
     background-size: cover;
+}
+
+.hero-contato{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../img/contato/hero-contato-mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+    background-position-x: -120px ;
+}
+
+.hero-content-contato{
+    width: 100%;
+    height: 362px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    color: var(--background-primary-color);
+}
+
+.hero-content-contato h1{
+    font-size: 42px;
+}
+
+.hero-content-contato hr{
+        margin: 16px 0 32px;
 }
 
 @media screen and (min-width: 768px) {
