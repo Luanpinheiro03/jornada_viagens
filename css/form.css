@@ -68,3 +68,7 @@
 .form-input textarea:focus{
     border-color: var(--primary-color);
 }
+
+.form-input .button{
+    width: 100%;
+}
