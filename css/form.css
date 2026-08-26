@@ -1,0 +1,74 @@
+.form{
+    display: flex;
+    width: 100%;
+    padding: 0 24px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.form p{
+    font-size: 16px;
+    line-height: 28px;
+    margin: 24px 0 56px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.form-input input{
+    height: 40px;
+    border-bottom: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #D9D9D9;
+}
+
+.form-input select{
+    font-size: 20px;
+    height: 40px;
+    border-bottom: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #D9D9D9;
+    color: #757575;
+}
+
+.form-input textarea{
+    height: 100px;
+    border-bottom: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #D9D9D9;
+    color: #757575;
+}
+
+.form-input ::placeholder{
+    font-size: 20px;
+}
+
+.form-input input:focus{
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.form-input select:focus{
+    border-color: var(--primary-color);
+}
+
+.form-input textarea:focus{
+    border-color: var(--primary-color);
+}
+
+.form-input .button{
+    width: 100%;
+}

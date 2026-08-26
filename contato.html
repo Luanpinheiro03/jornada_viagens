@@ -43,7 +43,11 @@
               >
             </li>
             <li>
-              <a href="contato.html" title="Acessar contato" target="_blank"
+              <a
+                href="contato.html"
+                class="active"
+                title="Acessar contato"
+                target="_blank"
                 >Contato</a
               >
             </li>
@@ -63,5 +67,78 @@
         </p>
       </section>
     </section>
+    <section class="form">
+      <div class="section-title">
+        <h1>Preencha o formulário:</h1>
+        <hr />
+      </div>
+      <p>
+        Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+        problemas, trazer dicas e orientações objetivas para tornar sua
+        experiência o mais prazerosa e tranquila possível. Preencha seus dados
+        que vamos retornar seu contato conforme a urgência do seu chamado. Pode
+        confiar!
+      </p>
+      <section class="form-input">
+        <input id="userName" type="text" placeholder="Seu Nome" required />
+
+        <input type="userTel" placeholder="Telefone" required />
+
+        <input type="userEmail" placeholder="Email" required />
+
+        <select name="userMatter" id="matter">
+          <option value="option" disabled selected>Selecione um assunto</option>
+          <option value="orçamento">Orçamento</option>
+          <option value="duvida">Dúvida</option>
+          <option value="suporte">Suporte</option>
+          <option value="outro">Outro</option>
+        </select>
+
+        <textarea
+          name="userMatterDetails"
+          id="MatterDetails"
+          placeholder="Descreva o assunto aqui..."
+          required
+        ></textarea>
+        <button class="button">Enviar</button>
+      </section>
+    </section>
+    <section class="hero-inf-contato"></section>
+    <footer class="main-footer">
+      <div class="footer-content">
+        <img
+          src="img/logo-jornada-footer.png"
+          alt="logo do site jornada viagens"
+        />
+        <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+        <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+      </div>
+      <div class="footer-social">
+        <p class="text-content">Acesse nossas redes:</p>
+        <div class="icons-social">
+          <a href="#"
+            ><img
+              src="img/home/icone-whatsapp.png"
+              alt="icone para acessar o whatsapp da empresa jornada viagens"
+              title="Acessar o Whatsapp"
+              target="_blank"
+          /></a>
+          <a href="#"
+            ><img
+              src="img/home/icone-instragam.png"
+              alt="icone para acessar o instagram da empresa jornada viagens"
+              title="Acessar o Instagram"
+              target="_blank"
+          /></a>
+          <a href="#"
+            ><img
+              src="img/home/icone-twitter.png"
+              alt="icone para acessar o twitter da empresa jornada viagens"
+              title="Acessar o Twitter"
+              target="_blank"
+          /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
