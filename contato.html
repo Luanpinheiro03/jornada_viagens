@@ -51,7 +51,7 @@
         </nav>
       </div>
     </header>
-    <section class="hero-contato">
+    <!-- <section class="hero-contato">
       <section class="hero-content-contato">
         <div class="section-title">
           <h1>Entre em contato!</h1>
@@ -61,6 +61,42 @@
           Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
           plantão para ajudar você!
         </p>
+      </section>
+    </section> -->
+    <section class="form">
+      <div class="section-title">
+        <h1>Preencha o formulário:</h1>
+        <hr />
+      </div>
+      <p class="text-content">
+        Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+        problemas, trazer dicas e orientações objetivas para tornar sua
+        experiência o mais prazerosa e tranquila possível. Preencha seus dados
+        que vamos retornar seu contato conforme a urgência do seu chamado. Pode
+        confiar!
+      </p>
+      <section class="form-input">
+        <input id="userName" type="text" placeholder="Seu Nome" required />
+
+        <input type="userTel" placeholder="Telefone" required />
+
+        <input type="userEmail" placeholder="Email" required />
+
+        <select name="userMatter" id="matter">
+          <option value="option" disabled selected>Selecione um assunto</option>
+          <option value="orçamento">Orçamento</option>
+          <option value="duvida">Dúvida</option>
+          <option value="suporte">Suporte</option>
+          <option value="outro">Outro</option>
+        </select>
+
+        <textarea
+          name="userMatterDetails"
+          id="MatterDetails"
+          placeholder="Descreva o assunto aqui..."
+          required
+        ></textarea>
+        <button class="button">Enviar</button>
       </section>
     </section>
   </body>
