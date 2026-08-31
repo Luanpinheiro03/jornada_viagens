@@ -154,6 +154,9 @@
         line-height: 150%;
 }
 
+    .hero-inf-contato{
+        background-image: url(../img/contato/hero-rodape-contato-tablet-desk.jpg);
+    }
 }
 
 @media screen and (min-width: 1024px) {
