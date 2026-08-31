@@ -199,11 +199,16 @@
         margin: auto 120px;
         padding-top: 150px;
         
-        
 }
+
     .hero-inf-travel-package{
         height: 600px;
         background-image: url(../img/travel-package/hero-inf-travel-package-desk.png);
+}
+
+    .hero-inf-contato{
+        background-image: url(../img/contato/hero-rodape-contato-desk.png);
+        height: 600px;
 }
 }
 
