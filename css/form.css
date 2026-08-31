@@ -21,6 +21,7 @@
 
 .form-input input{
     height: 40px;
+    width: 100%;
     border-bottom: 3px;
     border-top: 0px;
     border-left: 0px;
@@ -74,6 +75,12 @@
     width: 100%;
 }
 
+.form .form-input .profile-informations{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
 @media screen and (min-width: 768px) {
     .form p{
         font-size: 20px;
@@ -87,5 +94,12 @@
     .form-input .button{
         width: 280px;
         align-self: center;
+}
+}
+
+@media screen and (min-width: 768px) {
+    .form .form-input .profile-informations{
+        flex-direction: row;
+        gap: 24px;
 }
 }
