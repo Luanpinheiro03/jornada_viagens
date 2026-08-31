@@ -65,7 +65,7 @@
     background-size: cover;
     width: 100%;
     height: 460px;
-    background-position-x: -120px ;
+    background-position-x: -120px;
     margin-bottom: 88px;
 }
 
@@ -132,6 +132,31 @@
     .hero-inf-travel-package{
         background-image: url(../img//travel-package/hero-inf-travel-package-tablet.png);
 }
+
+    .hero-contato{
+        background-image: url(../img/contato/hero-contato-tablet.png);
+        height: 620px;
+        background-position-x: 0;
+}
+
+    .hero-content-contato{
+        width: 579px;
+        height: 255px;
+        padding: 183px 0;
+}   
+
+    .hero-content-contato h1{
+        font-size: 48px;
+}
+
+    .hero-content-contato p{
+        font-size: 32px;
+        line-height: 150%;
+}
+
+    .hero-inf-contato{
+        background-image: url(../img/contato/hero-rodape-contato-tablet-desk.jpg);
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -174,11 +199,16 @@
         margin: auto 120px;
         padding-top: 150px;
         
-        
 }
+
     .hero-inf-travel-package{
         height: 600px;
         background-image: url(../img/travel-package/hero-inf-travel-package-desk.png);
+}
+
+    .hero-inf-contato{
+        background-image: url(../img/contato/hero-rodape-contato-desk.png);
+        height: 600px;
 }
 }
 
