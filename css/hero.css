@@ -132,6 +132,14 @@
     .hero-inf-travel-package{
         background-image: url(../img//travel-package/hero-inf-travel-package-tablet.png);
 }
+
+    .hero-contato{
+        transform: scaleX(-1)
+    }
+
+    .hero-content-contato{
+        transform: scaleX(-1)
+}    
 }
 
 @media screen and (min-width: 1024px) {
