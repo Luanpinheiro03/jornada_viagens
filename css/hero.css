@@ -256,6 +256,15 @@
         width: 700px;
 }
 
+    .hero-blog{
+        background-image: url(../img/blog/hero-blog-desk.png);
+        padding: 150px 110px;
+}
+
+    .hero-content-blog{
+        width: 580px; 
+}
+
 }
 
 @media  screen and (min-width: 1920px){
