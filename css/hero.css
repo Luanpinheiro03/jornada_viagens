@@ -93,6 +93,23 @@
     margin-top: 88px;
 }
 
+.hero-blog{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/blog/hero-blog-mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+    background-position-y: -20px;
+    padding: 81px 24px;
+}
+
+.hero-content-blog, .section-title {
+    color:  var(--text-secondary-color);
+}
+
+.hero-blog .section-title{
+    font-size: 27px;
+} 
+
 @media screen and (min-width: 768px) {
    
    .hero-img{ 
@@ -157,7 +174,24 @@
     .hero-inf-contato{
         background-image: url(../img/contato/hero-rodape-contato-tablet-desk.jpg);
     }
+
+    .hero-blog{
+        background-image: url(../img/blog/hero-blog-tablet.png);
+        height: 620px;
+        padding: 158px 94px;
+        background-position: 0;
 }
+
+    .hero-blog .text-content{
+        font-size: 32px;
+        line-height: 150%;
+}
+
+    .hero-blog .section-title hr{
+        margin: 16px 0 32px;
+}
+}
+
 
 @media screen and (min-width: 1024px) {
    
@@ -220,6 +254,15 @@
         padding-top: 210px;
         padding-left: 120px;
         width: 700px;
+}
+
+    .hero-blog{
+        background-image: url(../img/blog/hero-blog-desk.png);
+        padding: 150px 110px;
+}
+
+    .hero-content-blog{
+        width: 580px; 
 }
 
 }
