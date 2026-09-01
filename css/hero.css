@@ -93,6 +93,23 @@
     margin-top: 88px;
 }
 
+.hero-blog{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/blog/hero-blog-mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+    background-position-y: -20px;
+    padding: 81px 24px;
+}
+
+.hero-content-blog, .section-title {
+    color:  var(--text-secondary-color);
+}
+
+.hero-blog .section-title{
+    font-size: 27px;
+} 
+
 @media screen and (min-width: 768px) {
    
    .hero-img{ 
