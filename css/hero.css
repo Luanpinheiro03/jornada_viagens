@@ -102,8 +102,12 @@
     padding: 81px 24px;
 }
 
-.hero-content-blog, .section-title {
+.hero-content-blog{
     color:  var(--text-secondary-color);
+}
+
+.hero-blog .section-title{
+    color: var(--text-secondary-color);
 }
 
 .hero-blog .section-title{
