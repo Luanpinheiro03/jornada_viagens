@@ -1,0 +1,6 @@
+ .blog-recommendation header{
+    display: block;
+    position: static;
+    padding: 0;
+    background-color: transparent;
+}
