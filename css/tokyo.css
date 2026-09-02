@@ -1,0 +1,13 @@
+.arrival-img {
+    background-image: url(../img/blog/blog-arrival-mobile.png);
+    width: 312px;
+    height: 360px;
+    background-size: cover;
+}
+
+.accommotations-img{
+    background-image: url(../img/tokyo-mobile.png);
+    width: 312px;
+    height: 360px;
+    background-size: cover;
+}
