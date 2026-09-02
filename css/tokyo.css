@@ -3,6 +3,10 @@
     margin: 88px 0;
 }
 
+.tokyo-arrival{
+    margin-top: 64px;
+    }
+
 .blog-tokyo .section-title h2{
     font-size: 32px;
 }
@@ -18,7 +22,7 @@
 
 .arrival-img {
     background-image: url(../img/blog/blog-arrival-mobile.png);
-    width: 312px;
+    flex: 1;
     height: 360px;
     background-size: cover;
 }
@@ -42,7 +46,7 @@
     }
 
     .arrival-content{
-        width: 360px;
+        flex: 1;
     }
 
     .accommotations-img{
@@ -62,9 +66,22 @@
     }
     .arrival-img {
         background-image: url(../img/blog/blog-arrival-desk.png);;
-        width: 588px;
-        
+        flex: 1;      
 }
 
+    .accommotations-img{
+        background-image: url(../img/blog/blog-accommotations-desk.png);
+}
+}
+
+@media screen and (min-width: 1920px) {
+    .blog-tokyo{
+        padding: 0 180px;
+}
+
+    .accommotations-img{
+        background-position-y: -30px;
+        height: 360px;
+}
 
 }
