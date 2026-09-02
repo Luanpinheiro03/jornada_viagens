@@ -1,6 +1,45 @@
+ .blog-recommendation .section-title  h2{
+    font-size: 32px;
+ }
+ 
+ .blog-recommendation{
+    padding: 0 24px;
+}
+
+ .blog-recommendation .item p{
+    width: 100%;
+}
+ 
  .blog-recommendation header{
     display: block;
+    width: 100%;
     position: static;
     padding: 0;
     background-color: transparent;
+}
+
+.blog-recommendation .img-item-osaka{
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-image: url(../img/osaka-mobile.png);
+    margin-bottom: 24px;
+}
+
+.img-item-hiroshima{
+    height: 360px;
+    background-size: cover;
+    background-image: url(../img/blog/blog-reccomendation-hiroshima-mobile.png);
+    margin-bottom: 24px;
+}
+
+.img-item-kyoto{
+    height: 360px;
+    background-size: cover;
+    background-image: url(../img/blog/blog-reccomendation-kyoto-mobile.png);
+    margin-bottom: 24px;
+}
+
+.blog-recommendation .item footer a{
+    width: 360px;
 }
