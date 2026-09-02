@@ -51,3 +51,20 @@
         height: 300px;
 }
 }
+
+@media screen and (min-width: 1440px) {
+    .blog-tokyo{
+        padding: 0 120px;
+}
+    
+    .arrival-content{
+        width: 588px;
+    }
+    .arrival-img {
+        background-image: url(../img/blog/blog-arrival-desk.png);;
+        width: 588px;
+        
+}
+
+
+}
