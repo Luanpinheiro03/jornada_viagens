@@ -58,3 +58,28 @@
     background-image: url(../img/blog/blog-reccomendation-kyoto-tablet.png);
 }
 }
+
+@media screen and (min-width: 1440px) {
+    .blog-recommendation{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        padding: 0 120px;
+    }
+
+    .blog-recommendation .img-item-osaka{
+    background-image: url(../img/osaka-mobile.png);
+}
+
+    .img-item-hiroshima{
+        background-image: url(../img/blog/blog-reccomendation-hiroshima-mobile.png);
+        background-position-x: 0;
+    }
+
+    .img-item-kyoto{
+        background-image: url(../img/blog/blog-reccomendation-kyoto-mobile.png);
+    }
+
+
+
+}
