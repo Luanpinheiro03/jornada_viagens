@@ -1,9 +1,14 @@
- .blog-recommendation .section-title  h2{
+ .title-blog{
     font-size: 32px;
+    padding: 0 24px;
  }
  
  .blog-recommendation{
     padding: 0 24px;
+}
+
+.blog-recommendation .item {
+    display: block;
 }
 
  .blog-recommendation .item p{
@@ -31,6 +36,7 @@
     background-size: cover;
     background-image: url(../img/blog/blog-reccomendation-hiroshima-mobile.png);
     margin-bottom: 24px;
+    background-position-x: -40px;
 }
 
 .img-item-kyoto{
@@ -41,10 +47,15 @@
 }
 
 .blog-recommendation .item footer a{
-    width: 312px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
+    .title-blog{
+    padding: 0 60px;
+ }
+    
     .blog-recommendation .img-item-osaka{
     background-image: url(../img/osaka-tablet-desk.png);
 }
@@ -57,6 +68,11 @@
 .img-item-kyoto{
     background-image: url(../img/blog/blog-reccomendation-kyoto-tablet.png);
 }
+
+.blog-recommendation .item footer a{
+    width: 280px;
+}
+
 }
 
 @media screen and (min-width: 1440px) {
