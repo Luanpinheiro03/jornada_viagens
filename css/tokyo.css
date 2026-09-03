@@ -59,7 +59,7 @@
 
 @media screen and (min-width: 1024px) {
     .accommotations-img{
-      background-position-y: -90px;
+      background-position-y: -50px;
 }
 }
 
@@ -87,7 +87,7 @@
 }
 
     .accommotations-img{
-        background-position-y: -30px;
+        background-position-y: -20px;
         height: 360px;
 }
 

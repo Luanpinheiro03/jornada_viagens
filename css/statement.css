@@ -93,6 +93,7 @@
 
     .statement .statement-container header p{
         margin-bottom: 8px;
+        padding: 0 8px;
     }
 
     .travel-package-statement-container article{
