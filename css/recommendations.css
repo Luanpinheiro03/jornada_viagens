@@ -41,5 +41,20 @@
 }
 
 .blog-recommendation .item footer a{
-    width: 360px;
+    width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+    .blog-recommendation .img-item-osaka{
+    background-image: url(../img/osaka-tablet-desk.png);
+}
+
+.img-item-hiroshima{
+    background-image: url(../img/blog/blog-reccomendation-hiroshima-tablet.png);
+    background-position-x: -60px;
+}
+
+.img-item-kyoto{
+    background-image: url(../img/blog/blog-reccomendation-kyoto-tablet.png);
+}
 }
