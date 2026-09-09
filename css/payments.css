@@ -134,16 +134,16 @@
         width: 648px;
     }
 
-    .image-japan1{
+    .package-payments .image-japan1{
         background-image: url(../img/travel-package/image-japan1-tablet-desk.png);
     }
 
-    .image-japan2{
+    .package-payments .image-japan2{
         background-image: url(../img/travel-package/image-japan2-tablet-desk.png);
     }
 
-    .image-japan-large{
-        background-image: url(../img/image-japan-large-tablet-desk.png);
+    .package-payments .image-japan-large{
+        background-image: url(../img/travel-package/image-japan-large-tablet-desk.png);
     }
 
     .package-payments-grid{
